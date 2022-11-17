@@ -1,11 +1,13 @@
+import "./Onefile.css"
+
 function NewSkillForm() {
     return (
         <div>
-        <form>
+        <form className="NewSkillForm">
         <label for="skill">Skill</label>
-        <input type="text" name="skill"></input>
+        <input className="input" type="text" name="skill"></input>
         <label for="Level">Level</label>
-        <select name="level">
+        <select className="select" name="level">
     <option value="1">1</option>
     <option value="2">2</option>
     <option value="3">3</option>

@@ -14,7 +14,7 @@ function App() {
     { name: "Python", level: 2 },
   ])
   return (
-    <div>
+    <div className ="App">
       <h1>React Dev Skills</h1>
       <SkillList skills={skills} />
       <NewSkillForm />
