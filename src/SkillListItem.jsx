@@ -1,11 +1,11 @@
-import "./Onefile.css"
+import "./Onefile.css";
 
 function SkillListItem({ skill }) {
-    return (
-        <li className="SkillListItem">
-            {skill.name} <p className='level'>LEVEL {skill.level}</p>
-        </li>
-    )
+  return (
+    <li className="SkillListItem">
+      {skill.name} <p className="level">LEVEL {skill.level}</p>
+    </li>
+  );
 }
 
-export default SkillListItem
+export default SkillListItem;

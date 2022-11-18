@@ -2,7 +2,7 @@ import "./Onefile.css"
 import SkillList from "./SkillList"
 import NewSkillForm from "./NewSkillForm"
 import { useState } from 'react'
-import handleAddSkill from "./NewSkillForm"
+
 
 
 
@@ -16,8 +16,7 @@ function App() {
   ])
 
  function addSkill(skill) {
-  const updatedState = {...skills, skill}
-  setSkills(updatedState)
+  setSkills([...skills, skill])
  }
   
   return (

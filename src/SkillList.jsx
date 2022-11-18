@@ -8,4 +8,5 @@ function SkillList({ skills }) {
     return <ul>{skillListItem}</ul>
     }
 
+
 export default SkillList
